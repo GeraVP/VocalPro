@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_new">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/R" android:id="@+id/R" android:icon="@drawable/ic_test"/>
+        <item android:title="@string/C" android:id="@+id/C" android:icon="@drawable/ic_test"/>
+        <item android:title="@string/H" android:id="@+id/H" android:icon="@drawable/ic_test"/>
+        <item android:title="@string/No" android:id="@+id/No" android:icon="@drawable/ic_test"/>
+    </group>
+    <item android:title="Category">
+        <menu>
+            <item android:title="@string/R" android:id="@+id/Rt" android:icon="@drawable/ic_test"/>
+            <item android:title="@string/C" android:id="@+id/Ct" android:icon="@drawable/ic_test"/>
+            <item android:title="@string/H" android:id="@+id/Ht" android:icon="@drawable/ic_test"/>
+            <item android:title="@string/No" android:id="@+id/Not" android:icon="@drawable/ic_test"/>
+
+        </menu>
+    </item>
+</menu>
