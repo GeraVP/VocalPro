@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">VocalProS</string>
-    <string name="R">VocalProS</string>
-    <string name="C">VocalProS</string>
-    <string name="H">VocalProS</string>
-    <string name="No">VocalProS</string>
+    <string name="app_name">VocalPro</string>
+    <string name="MainPage">Главная страница</string>
+    <string name="fulllist">Полный список разделов</string>
+    <string name="favourites">Избранное</string>
+    <string name="Settings">Настройки</string>
+    <string name="information">Информация о приложении</string>
 </resources>

@@ -3,18 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_new">
     <group android:checkableBehavior="single">
-        <item android:title="@string/R" android:id="@+id/R" android:icon="@drawable/ic_test"/>
-        <item android:title="@string/C" android:id="@+id/C" android:icon="@drawable/ic_test"/>
-        <item android:title="@string/H" android:id="@+id/H" android:icon="@drawable/ic_test"/>
-        <item android:title="@string/No" android:id="@+id/No" android:icon="@drawable/ic_test"/>
+        <item android:title="@string/MainPage" android:id="@+id/MainPage" android:icon="@drawable/ic_test"/>
+        <item android:title="@string/fulllist" android:id="@+id/fulllist" android:icon="@drawable/ic_test"/>
+        <item android:title="@string/favourites" android:id="@+id/favourites" android:icon="@drawable/ic_test"/>
+        <item android:title="@string/Settings" android:id="@+id/Settings" android:icon="@drawable/ic_test"/>
     </group>
-    <item android:title="Category">
+    <item android:title="Прочее">
         <menu>
-            <item android:title="@string/R" android:id="@+id/Rt" android:icon="@drawable/ic_test"/>
-            <item android:title="@string/C" android:id="@+id/Ct" android:icon="@drawable/ic_test"/>
-            <item android:title="@string/H" android:id="@+id/Ht" android:icon="@drawable/ic_test"/>
-            <item android:title="@string/No" android:id="@+id/Not" android:icon="@drawable/ic_test"/>
-
+            <item android:title="@string/information" android:id="@+id/Test" android:icon="@drawable/ic_test"/>
         </menu>
     </item>
 </menu>
